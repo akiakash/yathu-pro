@@ -40,17 +40,19 @@ export default function MediaCard() {
                 image={item.image}
                 alt="green iguana"
               />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  {item.price}
-                </Typography>
-                <Typography gutterBottom variant="h5" component="div">
-                  {item.title}
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  {item.description}
-                </Typography>
-              </CardContent>
+              <div>
+                <CardContent style={{ backgroundColor: " #2BD9AF" }}>
+                  <Typography gutterBottom variant="h5" component="div">
+                    {item.price}
+                  </Typography>
+                  <Typography gutterBottom variant="h5" component="div">
+                    {item.title}
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    {item.description}
+                  </Typography>
+                </CardContent>
+              </div>
               <CardActions>
                 <Button size="small">Share</Button>
                 <Button size="small">Learn More</Button>

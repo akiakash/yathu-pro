@@ -41,7 +41,7 @@ export default function MediaCard() {
                 image={item.image}
                 alt="green iguana"
               />
-              <CardContent>
+              <CardContent style={{ backgroundColor: " #FF5E84" }}>
                 <Typography gutterBottom variant="h5" component="div">
                   {item.price}
                 </Typography>
